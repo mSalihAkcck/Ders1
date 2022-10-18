@@ -1,0 +1,26 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int number = 28;
+		int toplam = 0;
+		int i = 1;
+		
+		while (number % i == 0 ) {
+			toplam += i;
+			i++;
+			if(number==i) {
+			continue;
+			}
+		}	
+			if ( toplam == number ) {
+			System.out.println(number + " sayısı mükemmel sayıdır.");
+			} else {
+			System.out.println(number + " sayısı mükemmel sayı değildir.");
+			}	
+		
+		
+	}
+}

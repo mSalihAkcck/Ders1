@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\Mehmet Salih\java2022\reCapDemo1\.metadata\.plugins\org.eclipse.jdt.core
